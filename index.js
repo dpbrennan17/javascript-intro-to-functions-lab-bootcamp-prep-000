@@ -19,7 +19,7 @@ var lowercase = 'hello!';
 var mixedCase = 'Hi there!';
 
 function sayHiToGrandma(string) {
-  string === string.toLowercase()
+  string.toLowercase() === string
   return "I can\'t hear you!";
 }
 
